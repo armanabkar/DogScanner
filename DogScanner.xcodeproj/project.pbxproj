@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0037BFB267F108D00B57671 /* DogScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0037BFA267F108D00B57671 /* DogScannerApp.swift */; };
+		F0037BFD267F108D00B57671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0037BFC267F108D00B57671 /* ContentView.swift */; };
+		F0037BFF267F108E00B57671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0037BFE267F108E00B57671 /* Assets.xcassets */; };
+		F0037C02267F108E00B57671 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0037C01267F108E00B57671 /* Preview Assets.xcassets */; };
+		F0037C12267F115C00B57671 /* DetectImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0037C11267F115C00B57671 /* DetectImage.swift */; };
+		F0037C15267F118D00B57671 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0037C14267F118D00B57671 /* ImagePicker.swift */; };
+		F0037C18267F11B500B57671 /* All_AKC_Breeds_Reworked_1500.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F0037C17267F11B500B57671 /* All_AKC_Breeds_Reworked_1500.mlmodel */; };
+		F0037C1D267F18A700B57671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0037C1C267F18A700B57671 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0037BF7267F108D00B57671 /* DogScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0037BFA267F108D00B57671 /* DogScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogScannerApp.swift; sourceTree = "<group>"; };
+		F0037BFC267F108D00B57671 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0037BFE267F108E00B57671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0037C01267F108E00B57671 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0037C03267F108E00B57671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0037C11267F115C00B57671 /* DetectImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectImage.swift; sourceTree = "<group>"; };
+		F0037C14267F118D00B57671 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F0037C17267F11B500B57671 /* All_AKC_Breeds_Reworked_1500.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = All_AKC_Breeds_Reworked_1500.mlmodel; sourceTree = "<group>"; };
+		F0037C1C267F18A700B57671 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0037BF4267F108D00B57671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0037BEE267F108D00B57671 = {
+			isa = PBXGroup;
+			children = (
+				F0037BF9267F108D00B57671 /* DogScanner */,
+				F0037BF8267F108D00B57671 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0037BF8267F108D00B57671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0037BF7267F108D00B57671 /* DogScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0037BF9267F108D00B57671 /* DogScanner */ = {
+			isa = PBXGroup;
+			children = (
+				F0037C0C267F10C700B57671 /* Support FIles */,
+				F0037C0F267F10E500B57671 /* Views */,
+				F0037C00267F108E00B57671 /* Preview Content */,
+				F0037C1A267F11E800B57671 /* Models */,
+			);
+			path = DogScanner;
+			sourceTree = "<group>";
+		};
+		F0037C00267F108E00B57671 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F0037C01267F108E00B57671 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0037C0C267F10C700B57671 /* Support FIles */ = {
+			isa = PBXGroup;
+			children = (
+				F0037BFA267F108D00B57671 /* DogScannerApp.swift */,
+				F0037BFE267F108E00B57671 /* Assets.xcassets */,
+				F0037C03267F108E00B57671 /* Info.plist */,
+				F0037C1C267F18A700B57671 /* LaunchScreen.storyboard */,
+			);
+			path = "Support FIles";
+			sourceTree = "<group>";
+		};
+		F0037C0F267F10E500B57671 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0037BFC267F108D00B57671 /* ContentView.swift */,
+				F0037C14267F118D00B57671 /* ImagePicker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F0037C1A267F11E800B57671 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0037C11267F115C00B57671 /* DetectImage.swift */,
+				F0037C17267F11B500B57671 /* All_AKC_Breeds_Reworked_1500.mlmodel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0037BF6267F108D00B57671 /* DogScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0037C06267F108E00B57671 /* Build configuration list for PBXNativeTarget "DogScanner" */;
+			buildPhases = (
+				F0037BF3267F108D00B57671 /* Sources */,
+				F0037BF4267F108D00B57671 /* Frameworks */,
+				F0037BF5267F108D00B57671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogScanner;
+			productName = DogScanner;
+			productReference = F0037BF7267F108D00B57671 /* DogScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0037BEF267F108D00B57671 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F0037BF6267F108D00B57671 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F0037BF2267F108D00B57671 /* Build configuration list for PBXProject "DogScanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0037BEE267F108D00B57671;
+			productRefGroup = F0037BF8267F108D00B57671 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0037BF6267F108D00B57671 /* DogScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0037BF5267F108D00B57671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0037C1D267F18A700B57671 /* LaunchScreen.storyboard in Resources */,
+				F0037C02267F108E00B57671 /* Preview Assets.xcassets in Resources */,
+				F0037BFF267F108E00B57671 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0037BF3267F108D00B57671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0037BFD267F108D00B57671 /* ContentView.swift in Sources */,
+				F0037C15267F118D00B57671 /* ImagePicker.swift in Sources */,
+				F0037BFB267F108D00B57671 /* DogScannerApp.swift in Sources */,
+				F0037C18267F11B500B57671 /* All_AKC_Breeds_Reworked_1500.mlmodel in Sources */,
+				F0037C12267F115C00B57671 /* DetectImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F0037C04267F108E00B57671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0037C05267F108E00B57671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0037C07267F108E00B57671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DogScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = QMW26WR72K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DogScanner/Support FIles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.armanabkar.DogScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0037C08267F108E00B57671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DogScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = QMW26WR72K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DogScanner/Support FIles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.armanabkar.DogScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0037BF2267F108D00B57671 /* Build configuration list for PBXProject "DogScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0037C04267F108E00B57671 /* Debug */,
+				F0037C05267F108E00B57671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0037C06267F108E00B57671 /* Build configuration list for PBXNativeTarget "DogScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0037C07267F108E00B57671 /* Debug */,
+				F0037C08267F108E00B57671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0037BEF267F108D00B57671 /* Project object */;
+}
